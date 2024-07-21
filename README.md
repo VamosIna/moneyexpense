@@ -19,7 +19,7 @@ Money Expense is a Flutter application designed to help users track their expens
 ## HackerRank
 [HackerRank](https://www.hackerrank.com/certificates/iframe/470c8aa95747)
 ## Apps
-[Apps](build/app/outputs/flutter-apk/app-release.apk)
+[Apps](app-release.apk)
 
 ## Features
 
