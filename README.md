@@ -4,6 +4,8 @@ Money Expense is a Flutter application designed to help users track their expens
 
 ## Table of Contents
 
+- [HackerRank](#hackerrank)
+- [Apps](#apps)
 - [Features](#features)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -13,6 +15,11 @@ Money Expense is a Flutter application designed to help users track their expens
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
+
+## HackerRank
+[HackerRank](https://www.hackerrank.com/certificates/iframe/470c8aa95747)
+## Apps
+[Apps](build/app/outputs/flutter-apk/app-release.apk)
 
 ## Features
 
@@ -60,11 +67,11 @@ moneyexpense/
 ├── android/ # Android-specific configuration
 ├── ios/ # iOS-specific configuration
 ├── lib/ # Main Dart code
-│ ├── main.dart # Entry point of the application
-│ ├── models/ # Data models
-│ ├── screens/ # UI screens
-│ ├── widgets/ # Reusable widgets
-│ └── utils/ # Utility functions
+├── main.dart # Entry point of the application
+├── models/ # Data models
+├── screens/ # UI screens
+├── widgets/ # Reusable widgets
+└── utils/ # Utility functions
 ├── test/ # Unit and widget tests
 ├── assets/ # Assets like fonts and icons
 │ ├── fonts/ # Custom fonts
