@@ -1,16 +1,99 @@
-# moneyexp
+# Money Expense App
 
-A new Flutter project.
+Money Expense is a Flutter application designed to help users track their expenses. This document provides an overview of the project, setup instructions, and basic usage.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running the App](#running-the-app)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Track daily expenses
+- Categorize expenses
+- Visualize expense data
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before you begin, ensure you have the following installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Dart](https://dart.dev/get-dart)
+- An IDE such as [VSCode](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/VamosIna/moneyexpense.git
+    cd moneyexpense
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+### Running the App
+
+1. Connect your device or start an emulator.
+2. Run the app:
+
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
+moneyexpense/
+├── android/ # Android-specific configuration
+├── ios/ # iOS-specific configuration
+├── lib/ # Main Dart code
+│ ├── main.dart # Entry point of the application
+│ ├── models/ # Data models
+│ ├── screens/ # UI screens
+│ ├── widgets/ # Reusable widgets
+│ └── utils/ # Utility functions
+├── test/ # Unit and widget tests
+├── assets/ # Assets like fonts and icons
+│ ├── fonts/ # Custom fonts
+│ ├── icons/ # Application icons
+├── pubspec.yaml # Flutter and Dart dependencies
+└── README.md # Project documentation
+
+
+## Dependencies
+
+The `pubspec.yaml` file includes the following dependencies:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0  # State management
+  sqflite: ^2.0.0+3     # SQLite database
+  path_provider: ^2.0.2 # Path provider for storing files
+  path: ^1.8.0          # Path manipulation
+  intl: ^0.17.0         # Internationalization and localization
+  cupertino_icons: ^1.0.2  # iOS style icons
+fonts:
+  - family: SourceSansPro
+    fonts:
+      - asset: assets/fonts/SourceSans3-Regular.ttf
+      - asset: assets/fonts/SourceSans3-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/SourceSans3-Italic.ttf
+        style: italic
+assets:
+  - assets/icons/
